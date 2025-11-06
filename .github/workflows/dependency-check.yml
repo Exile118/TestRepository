@@ -6,6 +6,10 @@ on:
     - cron: '0 8 * * 1'
   workflow_dispatch:
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   check-dependencies:
     name: 检查过期依赖

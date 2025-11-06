@@ -12,6 +12,9 @@ on:
 env:
   PYTHON_VERSION: '3.11'
 
+permissions:
+  contents: read
+
 jobs:
   # 工作1：代码质量检查
   code-quality:
