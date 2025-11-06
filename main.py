@@ -1,7 +1,7 @@
 # print("hello test-api")
 print("test-lazygit")
 
-print(123)
+print("hello from main")
 
 def main():
     print("main")
